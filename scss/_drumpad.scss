@@ -1,0 +1,26 @@
+figure {
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+  font-size: 3rem;
+  border: 2px solid $accent;
+  box-sizing: border-box;
+  padding: .5rem;
+  transition: all .05s ease-in-out;
+  figcaption {
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+}
+
+figure:hover {
+  color: $accent;
+  border-color: $primary;
+  background-color: $bg-dark;
+}
+
+.active {
+  transform: scale(1.5);
+  background-color: $accent;
+}

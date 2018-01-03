@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222831;
+  color: #EEEEEE;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+body #wrapper {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 700px) {
+  body #wrapper {
+    height: 70vh;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #00ADB5;
+}
+
+footer {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2.5em;
+  text-align: center;
+}
+
+figure {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  cursor: pointer;
+  font-size: 3rem;
+  border: 2px solid #00ADB5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: .5rem;
+  -webkit-transition: all .05s ease-in-out;
+  transition: all .05s ease-in-out;
+}
+
+figure figcaption {
+  font-size: .9rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+figure:hover {
+  color: #00ADB5;
+  border-color: #EEEEEE;
+  background-color: #393E46;
+}
+
+.active {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-color: #00ADB5;
+}
+
+header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2.5em;
+}
+
+header h1 {
+  font-weight: 100;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,43 @@
+// Variables
+$font: "Courier New",
+Courier,
+monospace;
+$bg-darker: #222831;
+$bg-dark: #393E46;
+$accent: #00ADB5;
+$primary: #EEEEEE;
+// General stuff
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $bg-darker;
+  color: $primary;
+  font-family: $font;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  #wrapper {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    @media screen and (min-width: 700px) {
+      height: 70vh;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $accent;
+}
+
+footer {
+  box-sizing: border-box;
+  padding: 2.5em;
+  text-align: center;
+}
+
+// Imports
+@import '_drumpad.scss';
+@import '_header.scss';
